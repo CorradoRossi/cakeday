@@ -1,0 +1,6 @@
+# Documentation: https://roots.io/trellis/docs/mail/
+mail_smtp_server: smtp.cakeday.xyz:587
+mail_admin: admin@cakeday.xyz
+mail_hostname: cakeday.xyz
+mail_user: smtp_user
+mail_password: "{{ vault_mail_password }}" # Define this variable in group_vars/all/vault.yml
